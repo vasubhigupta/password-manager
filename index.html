@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><h4>Password Manager</h4></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+
+        </ul>
+    </nav>
+    <br>
+    
+    <div>       
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+   </div> 
+   <nav class="container">
+        <h1>Add Password</h1>
+        <form action="/submit" method="post">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required />
+            <br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required/>
+            <br><br>
+            <input  id="btn" type="submit" value="Submit">
+        </form>   
+    </nav>
+    <script src="script.js"></script> 
+</body>
+</html>

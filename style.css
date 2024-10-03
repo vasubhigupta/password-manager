@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+ 
+}
+body{
+    background-color: #EDE8DC; /* Add background for visibility */
+}
+
+.navbar{
+    background-color: #C1CFA1;
+    display: flex;
+    padding: 2px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+}
+
+nav.container {
+    border: 1px solid #A5B68D;
+    padding: 20px;
+    color: black;
+    background-color: #A5B68D;
+    box-shadow: 0 4px 8px #A5B68D;
+
+    /* Align the container to the right */
+    position: absolute;
+    top: 50%;
+    right: 10%; /* Align to the right */
+    transform: translateY(-50%); /* Center vertically */
+    width: 80%;
+    max-width: 400px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+    align-items: center;
+    
+}
+
+li{
+    list-style: none;
+    margin: 0px 13px;
+}
+
+ul > li:hover{
+    color: black;
+}
+
+table, tr, td, th{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 5px 13px;
+    background-color: #E7CCCC;
+}
+
+#btn{
+    background-color: white;
+    padding: 8px 17px;
+    font-weight: 600;
+    background-color: white;
+    color: #A5B68D;
+    border-radius: 8px;
+    border: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+#btn:hover{
+    background-color: white;
+    color: #A5B68D;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.del{
+    background-color: white;
+    padding: 3px 12px;
+    font-weight: 600;
+    background-color: white;
+    color: #A5B68D;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.del:hover{
+    background-color: white;
+    color: #A5B68D;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.link {
+    color: #D24545; /* Set this to any color you want */
+    text-decoration: underline;
+}
+
+/* Change the link color when hovered */
+.link:hover {
+    color: blue; /* Example: Change to a red color when hovered */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    width: 11px;
+    height: 11px;
+}
